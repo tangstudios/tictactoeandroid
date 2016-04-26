@@ -1,0 +1,237 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ff005219"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="monospace"
+        android:textColor="#ffffffff"
+        android:textSize="50sp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/status"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="125dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/place1"
+            android:fontFamily="monospace"
+            android:textSize="125sp"
+            android:background="#ff02531b"
+            android:textColor="#ffffffff"
+            android:onClick="onPlace1Click"
+            />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="125dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/place2"
+            android:fontFamily="monospace"
+            android:textSize="125sp"
+            android:background="#ff02531b"
+            android:textColor="#ffffffff"
+            android:onClick="onPlace2Click"
+            />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="125dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/place3"
+            android:fontFamily="monospace"
+            android:textSize="125sp"
+            android:background="#ff02531b"
+            android:textColor="#ffffffff"
+            android:onClick="onPlace3Click"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="10dp"
+        android:background="#ffffffff"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="125dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/place4"
+            android:fontFamily="monospace"
+            android:textSize="125sp"
+            android:background="#ff02531b"
+            android:textColor="#ffffffff"
+            android:onClick="onPlace4Click"
+            />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="125dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/place5"
+            android:fontFamily="monospace"
+            android:textSize="125sp"
+            android:background="#ff02531b"
+            android:textColor="#ffffffff"
+            android:onClick="onPlace5Click"
+            />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="125dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/place6"
+            android:fontFamily="monospace"
+            android:textSize="125sp"
+            android:background="#ff02531b"
+            android:textColor="#ffffffff"
+            android:onClick="onPlace6Click"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="10dp"
+        android:background="#ffffffff"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="125dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/place7"
+            android:fontFamily="monospace"
+            android:textSize="125sp"
+            android:background="#ff02531b"
+            android:textColor="#ffffffff"
+            android:onClick="onPlace7Click"
+            />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="125dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/place8"
+            android:fontFamily="monospace"
+            android:textSize="125sp"
+            android:background="#ff02531b"
+            android:textColor="#ffffffff"
+            android:onClick="onPlace8Click"
+            />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="125dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/place9"
+            android:fontFamily="monospace"
+            android:textSize="125sp"
+            android:background="#ff02531b"
+            android:textColor="#ffffffff"
+            android:onClick="onPlace9Click"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P1 Wins: 0"
+            android:textSize="18sp"
+            android:textColor="#ffffffff"
+            android:fontFamily="monospace"
+            android:id="@+id/xwins"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ties: 0"
+            android:textSize="18sp"
+            android:textColor="#ffffffff"
+            android:fontFamily="monospace"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:id="@+id/ties"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P2 Wins: 0"
+            android:textSize="18sp"
+            android:textColor="#ffffffff"
+            android:fontFamily="monospace"
+            android:layout_marginStart="15dp"
+            android:id="@+id/owins"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="New Game"
+        android:fontFamily="monospace"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:id="@+id/new_game_button"
+        android:visibility="invisible"
+        android:onClick="onNewGameClick"/>
+
+
+</LinearLayout>

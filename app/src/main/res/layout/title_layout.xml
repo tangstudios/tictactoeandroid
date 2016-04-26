@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ff005219">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIC-TAC-TOE"
+        android:fontFamily="monospace"
+        android:textColor="#ffffffff"
+        android:textSize="50sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="300dp">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="1 Player"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:onClick="onOnePlayerClick"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="2 Player"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:onClick="onTwoPlayerClick"/>
+
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Created by Wilson Tang"
+        android:fontFamily="monospace"
+        android:textColor="#ffffffff"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
